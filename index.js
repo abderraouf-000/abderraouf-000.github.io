@@ -12,23 +12,16 @@ let projects = {'ShowAll':[SmartDoorLockProject,Elearning,Islamophobic],'Web dev
 
 let projectsFilters = document.querySelectorAll('.projects .filter');
 
+
+
 projectsFilters.forEach((filter)=>{
-
-    filter.addEventListener("click",(event)=>{
- 
+    filter.addEventListener("click",(event)=>{ 
     reinitialize();
-        
     for(let project of projects[`${event.target.lastChild.textContent}`]){
-
         event.currentTarget.style.backgroundColor = 'black';
         event.currentTarget.children[0].style.color = 'white';
         project.DOMelement.style.visibility = 'visible';
-        
-
-    }
-
-     
-     
+    }     
     })
 })
 
@@ -47,3 +40,23 @@ let reinitialize = function(){
 
 
 }
+
+
+
+project1 = document.querySelector("project1");
+
+
+    project1.addEventListener("click",(event)=>{
+         
+    for(let project of projects[`${event.target.lastChild.textContent}`]){
+
+        event.currentTarget.style.backgroundColor = 'black';
+        event.currentTarget.children[0].style.color = 'white';
+        project.DOMelement.style.visibility = 'visible';
+        
+
+    }
+
+     
+     
+    })
