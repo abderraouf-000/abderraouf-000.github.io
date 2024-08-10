@@ -7,8 +7,9 @@ let allProjects = document.querySelectorAll('.project');
 let SmartDoorLockProject = new Project("Smart door lock system",["showAll"],'www.youtube.com',document.querySelector('.project1'));
 let Elearning = new Project("Elearning Platform",["ShowAll",'Web dev'],'https://github.com/abderraouf-000/Taalum-Elearning-platform',document.querySelector('.project2'));
 let Islamophobic = new Project("Islamophobic sppech detection",["ShowAll",'Machine learning'],'https://github.com/abderraouf-000/Taalum-Elearning-platform',document.querySelector('.project3'));
+let extension = new Project("Youtube notes with AI chrome extension (incompleted)",["ShowAll","Machine learning","Web dev"],'https://github.com/abderraouf-000/Taalum-Elearning-platform',document.querySelector('.project4'));
 
-let projects = {'ShowAll':[SmartDoorLockProject,Elearning,Islamophobic],'Web dev':[Elearning], "Machine learning" : [Islamophobic]}
+let projects = {'ShowAll':[SmartDoorLockProject,Elearning,Islamophobic,extension],'Web dev':[Elearning,extension], "Machine learning" : [Islamophobic,extension] , "Mobile apps" : [SmartDoorLockProject]}
 
 let projectsFilters = document.querySelectorAll('.projects .filter');
 

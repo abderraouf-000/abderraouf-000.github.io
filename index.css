@@ -278,7 +278,7 @@ background-color: black;
 .project{
     position: relative;
     cursor: pointer;
-
+    /* width: 30vw; */
   }
   .project:after {
     content:'';
@@ -312,6 +312,13 @@ background-color: black;
     background-size: cover;
     margin: 5%;
 }
+.project4{
+    background-image: url("images/nothing.png");
+    /* width: 100%; */
+    background-position: center;
+    background-size: cover;
+    margin: 5%;
+}
 .project h1{
     z-index: 10;
     color: white;
@@ -332,13 +339,16 @@ padding: 1.5%;
 
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .projects .all-projects{
         display: grid;
         grid-template-columns: auto;
         /* gap: 10%; */
         /* background-color: blue; */
         padding:5% 1%;
+    }
+    .project{
+        width: 60vw;
     }
   }
 
@@ -356,3 +366,15 @@ footer {
     align-items: center;
     height: 15vh;
 } 
+
+.biography{
+    /* background-color: blue; */
+    width: 80vw;
+    
+}
+
+.biography p{
+    line-height: 170%;
+    white-space:wrap;
+    font-size: 1.3rem;
+}
