@@ -22,10 +22,12 @@
     text-decoration: none;
     list-style: none;
     color: white;
+
 }
 
 body {
     overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .logo {
@@ -39,6 +41,8 @@ body {
 
 header {
     background-color: #414a4c;
+    overflow-x: hidden;
+
     /* margin: 10px; */
     height: 10vh;
     display: flex;
@@ -113,6 +117,8 @@ nav ul li a:hover::after {
     align-items: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    /* overflow-x: hidden; */
+
 }
 
 .hero h1 {
@@ -220,6 +226,8 @@ nav ul li a:hover::after {
 .section-name{
     font-size: 1.8rem;
     margin: 2%;
+    /* overflow-x: hidden; */
+
 }
 
 .projects{
@@ -229,11 +237,14 @@ nav ul li a:hover::after {
     align-items: center;
     flex-direction: column;
     /* padding: 0 0 0 50%; */
+    overflow-x: hidden;
+
 }
 
 .projects .filteringBlocks{
-display: flex;
-
+display:flex;
+flex-wrap: wrap;
+/* width:50%; */
 }
 
 .projects .filteringBlocks .filter{
@@ -339,7 +350,7 @@ padding: 1.5%;
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
     .projects .all-projects{
         display: grid;
         grid-template-columns: auto;
@@ -349,6 +360,11 @@ padding: 1.5%;
     }
     .project{
         width: 60vw;
+    }
+    nav ul {
+        display: block;
+        display: none;
+        /* align-items: center; */
     }
   }
 
