@@ -1,7 +1,7 @@
 ---
 title: "IslamTrust: A Benchmark for LLMs Alignment with Islamic Values"
 collection: publications
-category: manuscripts
+category: workshops
 permalink: /publication/2025-islamtrust-benchmark
 excerpt: 'IslamTrust is a multilingual benchmark for evaluating the alignment of large language models with Islamic values and principles in Arabic and English.'
 date: 2025-12-01
