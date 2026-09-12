@@ -12,7 +12,7 @@ redirect_from:
 ## Who am I?
 I am a **Master’s graduate in Data Science** from **Eötvös Loránd University** working on **efficient and responsible AI deployment**.
 
-Across my work, I worked on:
+Across my research, I worked on:
 
 * **Culturally Sensitive Alignment & Evaluation:** Safety and human preferences cannot be unified under a single global umbrella. I led the **IslamTrust** project with **Prof. Mufti Mahmud** (*SDAIA-KFUPM Joint Center*), introducing a novel benchmark for evaluating **LLMs within Islamic cultural contexts**, published at the **Muslims in ML Workshop at NeurIPS 2025**.
 * **Resource-Efficient & Continuous Alignment:** High-performing models shouldn't require massive compute. My thesis and current research focus on **RL-based online alignment**, **continuous learning**, and **self-knowledge distillation** using offline and contrastive self-generated data to solve **out-of-distribution (OOD) preference challenges** with reduced forgetting.
