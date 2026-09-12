@@ -7,6 +7,7 @@ redirect_from:
   - /about.html
 ---
 
+---
 
 ## Who am I?
 I am a **Master’s graduate in Data Science** from **Eötvös Loránd University** working on **efficient and responsible AI deployment**.
