@@ -1,15 +1,14 @@
 ---
 permalink: /
-title: "Personal Website"
+# title: "Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-# Research Profile & Summary
----
 
-## Bio
+
+## Who am I?
 I am a **Master’s graduate in Data Science** from **Eötvös Loránd University** working on **efficient and responsible AI deployment**.
 
 Across my work, I focus on two core research threads:
@@ -21,13 +20,13 @@ Currently, I am working on **training-free LLM adaptation** and **calibration-fr
 
 ---
 
-## Vision
-Real-world AI must be **democratized**, **continuous**, and **culturally nuanced**. My goal is to build **alignment and inference paradigms** that allow models to learn efficiently, respect **localized value systems**, and operate effectively under **severe compute constraints**.
+## Goals & Vision
+Real-world AI must be **democratized** and **culturally nuanced**. My goal is to build **alignment and inference paradigms** that allow models to learn efficiently, respect **localized value systems**, and operate effectively under **severe compute constraints**.
 
 ---
 
 ## Research Directions
 
-1. **Contextual & Culturally Aware Alignment:** Developing **nuanced benchmarks** and **safety definitions** that extend beyond standard, monolithic global preference datasets.
-2. **Low-Resource RL & Continuous Learning:** Engineering **online reference-constrained alignment**, **self-distillation**, and **curriculum learning** strategies to overcome data scarcity.
+2. **Low-Resource RL & Continuous Learning:** Working on alignment methods that can re-use already created datasets, overcoming OOD challenges, and minimizing catastrophic forgetting.
 3. **Efficient Inference & Adaptation:** Designing **effective, calibration-aware model compression** and **resource-efficient deployment mechanisms**.
+1. **Culturally Aware Systems:** Developing **benchmarks** and **safety definitions** that extend beyond standard, monolithic global preferences.
