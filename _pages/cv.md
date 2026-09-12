@@ -51,27 +51,18 @@ Skills
   * English (C1 - TOEFL: 95)
   * French (Intermediate)
 
-Publications
+Publications & Manuscripts
 ======
 * Abderraouf Lahmar, Arafat Md Easin, Zakarya Farou, Mufti Mahmud. **IslamTrust: A Benchmark for LLMs Alignment with Islamic Values**. Accepted at the 5th Muslims in ML Workshop at NeurIPS'25, 2025.
-
-Manuscripts in Preparation
-======
-* Abderraouf Lahmar, Arafat Md Easin, Zakarya Farou, Mufti Mahmud, Tamás Orosz. **Fake it till you make it: LLMs Self-alignment Through Curriculum Learning**.
+* Abderraouf Lahmar, Arafat Md Easin, Zakarya Farou, Mufti Mahmud, Tamás Orosz. **Fake it till you make it: LLMs Self-alignment Through Curriculum Learning** (Under Review).
 
 Talks & Presentations
 ======
 * **IslamTrust: A Benchmark for LLMs Alignment with Islamic Values** — Virtual poster presentation at the 5th Muslims in ML Workshop, Co-located with NeurIPS 2025.
 * **Continuous Alignment of LLMs in Low-Resource Settings** — Presented at the Spring 2026 TDK conference, Bosch.
 
-Projects
-======
-* **Feature engineering instead of KV vectors?** (In progress, August 2025)
-  * Analyzing the behavior of attention layers during generation in LLM reasoning tasks.
-  * Implemented custom semantic-causal masking based on token semantic categories.
-  * Studying how KV vectors can be replaced using 28-dimensional semantic feature vectors.
 
-Achievements & Honors
+Achievements
 ======
 * **1st Place, TDK Competition** (May 2026) — Awarded 1st place at the TDK conference, Bosch.
 * **Stipendium Hungaricum** (2024–2026) — Nominated by the Algerian & Hungarian governments.
